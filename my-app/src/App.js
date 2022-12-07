@@ -1,5 +1,6 @@
 import './App.css';
-import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
+// import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NestingComponents from './components/NestingComponents';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
@@ -15,7 +16,8 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 function App() {
   return (
     <div className="App">
-      <MethodsAsPropsParent />
+      <RenderingLists />
+      {/* <MethodsAsPropsParent /> */}
       {/* <NestingComponents /> */}
       {/* <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={true}/> */}
