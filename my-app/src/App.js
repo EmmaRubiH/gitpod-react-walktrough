@@ -1,5 +1,9 @@
 import './App.css';
-import ControlledForm from './components/ControlledForm';
+import UseStateWithObjects from './components/UseStateWithObjects';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+// import ControlledFormHooks from './components/ControlledFormHooks';
+// import SearchBar from './components/SearchBar';
+// import ControlledForm from './components/ControlledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
@@ -20,7 +24,11 @@ import ControlledForm from './components/ControlledForm';
 function App() {
   return (
     <div className="App">
-      <ControlledForm />
+      <UseStateWithObjects />
+      {/* <UseStateWithArrays /> */}
+      {/* <ControlledFormHooks /> */}
+      {/* <SearchBar /> */}
+      {/* <ControlledForm /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCDM /> */}
