@@ -1,5 +1,6 @@
 import './App.css';
-import UseStateWithObjects from './components/UseStateWithObjects';
+import HTTPRequests from './components/HTTPRequests';
+// import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import SearchBar from './components/SearchBar';
@@ -24,7 +25,8 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 function App() {
   return (
     <div className="App">
-      <UseStateWithObjects />
+      <HTTPRequests />
+      {/* <UseStateWithObjects /> */}
       {/* <UseStateWithArrays /> */}
       {/* <ControlledFormHooks /> */}
       {/* <SearchBar /> */}
