@@ -1,5 +1,7 @@
 import './App.css';
-import HTTPRequests from './components/HTTPRequests';
+import HTTPHooks from './components/HTTPHooks';
+// import HTTPPost from './components/HTTPPost';
+// import HTTPRequests from './components/HTTPRequests';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import ControlledFormHooks from './components/ControlledFormHooks';
@@ -25,7 +27,9 @@ import HTTPRequests from './components/HTTPRequests';
 function App() {
   return (
     <div className="App">
-      <HTTPRequests />
+      <HTTPHooks />
+      {/* <HTTPPost /> */}
+      {/* <HTTPRequests /> */}
       {/* <UseStateWithObjects /> */}
       {/* <UseStateWithArrays /> */}
       {/* <ControlledFormHooks /> */}
